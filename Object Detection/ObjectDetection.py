@@ -200,7 +200,6 @@ while True:
 		f.close()
 		if sentt==0:
 			sentt=1
-			print("Bhai Tune toh Aag Laga di")
 			url = "https://www.fast2sms.com/dev/bulk"
 			g = geocoder.ip('me')
 			print(g.latlng)
@@ -230,7 +229,6 @@ while True:
 		prediction = 'No-Weapon'
 	else:
 		prediction = 'Weapon'
-		print("Gun Niche kar")
 		f=open("weapon.txt", "w")
 	 #    f = open("weapon.txt", "w")
 		f.write("1")
@@ -280,7 +278,6 @@ while True:
 			f = open("intruder.txt", "w")
 			f.write("1")
 			f.close()
-			print("Tu Chor hai saale")
 			url = "https://www.fast2sms.com/dev/bulk"
 			g = geocoder.ip('me')
 			print(g.latlng)
