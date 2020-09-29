@@ -165,7 +165,7 @@ watson-developer-cloud==2.10.1
 wcwidth==0.1.7
 websocket-client==0.48.0
 websockets==6.0
-Werkzeug==0.14.1
+Werkzeug==0.15.3
 widgetsnbextension==3.5.1
 xlrd==1.2.0
 zmq==0.0.0
